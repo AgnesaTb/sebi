@@ -14,6 +14,31 @@
         <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" alt="Happy-gif">
     </div>
   </div>
+      <div>
+      <label for="where">Where do you want to go?</label>
+      <input type="text" id="where" name="where">
+    </div>
+    <div>
+      <label for="eat">What do you want to eat?</label>
+      <input type="text" id="eat" name="eat">
+    </div>
+    <div>
+      <label for="do">What do you want to do?</label>
+      <input type="text" id="do" name="do">
+    </div>
+    <button onclick="readInput()">Submit</button>
+    <p id="output"></p>
+  </div>
+
+  <script>
+    function readInput() {
+      var where = document.getElementById("where").value;
+      var eat = document.getElementById("eat").value;
+      var doActivity = document.getElementById("do").value;
+      var output = "You want to go to: " + where + ", eat: " + eat + ", and do: " + doActivity + ".";
+      document.getElementById("output").textContent = output;
+    }
+  </script>
 </body>
 </html>
 
