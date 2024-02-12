@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* Light pink background */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, 
+  h2 {
+    color: #ff3366; /* Red heading */
+    font-size: 40px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-btn, .no-btn {
+    background-color: #d7334c; /* Pink buttons */
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .yes-btn:hover, .no-btn:hover {
+    background-color: #fc92a9; /* Darker pink on hover */
+  }
+  
+  .cat-gif {
+    margin-top: 40px;
+  }
+  
+  .cat-gif img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .explanation h3{
+    color: #d7334c;
+  }
+  #heart {
+    width: 70px;
+  }
+  .happy-gif {
+    padding-bottom: 20px;
+  }
